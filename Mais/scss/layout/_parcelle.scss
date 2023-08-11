@@ -1,0 +1,43 @@
+@use "../font";
+
+.parcelle__container {
+  padding: 40px;
+  width: 100vw;
+  display: flex;
+  gap: 20px;
+
+  .parcelle__card {
+    width: 320px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    font-family: font.$font;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.116);
+    }
+
+    &__title {
+      font-weight: inherit;
+      color: var(--color);
+    }
+
+    &__info {
+      width: 100%;
+      font-weight: bold;
+      font-size: 12px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+
+      span {
+        font-size: 18px;
+        font-weight: 100;
+      }
+    }
+  }
+}

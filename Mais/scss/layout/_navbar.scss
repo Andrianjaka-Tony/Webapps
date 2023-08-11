@@ -1,0 +1,33 @@
+@use "../font";
+
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  padding: 40px 40px 20px 40px;
+
+  &__title {
+    font-family: font.$title;
+    font-size: 45px;
+    color: var(--color);
+  }
+
+  &__items {
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+
+    &__item {
+      font-family: font.$font;
+      font-size: 18px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    &__item.active,
+    &__item:hover {
+      color: var(--color);
+    }
+  }
+}

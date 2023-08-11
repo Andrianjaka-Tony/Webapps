@@ -1,0 +1,30 @@
+Tany: mizara parcelle bdb
+
+olona 1: mamboly am parcelle anak 1 na bdb
+
+manisa tahona katsaka
+tahona katsaka anak 1 mety misy tolana katsaka bdb
+
+mamoaka anomalie bdb: 
+  nisy nanganlatra
+  tsy ao tsara ny fitombonle katsaka
+  tsy mamokatra tsara
+    par taolana katsaka de aveo lanjaina
+      tode mahazo estimation amle chiffre d'affaire
+
+ny tena ilaina de le prevision anle famokarana
+
+mila mitombo isaky ny tapabolana le katsaka
+
+mila loko
+  100: vert
+  0: jaune
+
+ny tena andrasana
+  suivi anle katsaka quotidien
+  manao controle
+  mamoaka anomalie
+    nisy nangalatra
+    tsy mitombo
+    couleur
+				

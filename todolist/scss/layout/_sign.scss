@@ -1,0 +1,31 @@
+.sign {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .logo_svg {
+    height: 60px;
+    width: 120px;
+    margin-top: 180px;
+
+    svg {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  &_title {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+
+  &_form {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+}

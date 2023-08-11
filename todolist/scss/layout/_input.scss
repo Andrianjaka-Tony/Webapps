@@ -1,0 +1,19 @@
+.input {
+  width: 320px;
+
+  &_label {
+    font-size: 0.7rem;
+    display: block;
+  }
+
+  &_input {
+    margin-top: 3px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.1);
+    height: 45px;
+    padding: 0 10px;
+    font-size: 0.8rem;
+  }
+}

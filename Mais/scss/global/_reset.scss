@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  --color: #b1a219;
+}
+
+#root {
+  width: 100vw;
+  transition: 300ms;
+}
+
+#root.invisible {
+  transform: translateX(-50px);
+  opacity: 0;
+}
+
+.link {
+  color: var(--color);
+  margin: 0 40px;
+  font-family: Open sans;
+  font-size: 22px;
+  cursor: pointer;
+}

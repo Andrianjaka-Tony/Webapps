@@ -1,0 +1,9 @@
+.composition__card {
+  width: 100vw;
+  padding: 20px 40px;
+  font-family: Open sans;
+  .text {
+    display: flex;
+    justify-content: space-between;
+  }
+}

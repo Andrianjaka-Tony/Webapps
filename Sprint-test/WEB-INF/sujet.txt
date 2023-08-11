@@ -1,0 +1,31 @@
+Voiture
+  numero
+  modele
+
+Chaufeur
+  numero
+  nom
+  prenom
+
+Interfaces:
+
+  Liste de tous les trajets
+
+  Creation de trajet
+    depart
+    arrivee
+    voiture
+    chauffeur
+    date depart
+    haure depart
+
+  Valider l'arrivee du trajet (authentification)
+
+  JSON liste des trajets de la voiture
+    prend en parametre l'ID de la voiture
+
+Supplements
+
+  exceptions: 
+    URL inconnu -> URL not supported
+

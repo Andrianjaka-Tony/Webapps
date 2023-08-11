@@ -1,0 +1,17 @@
+@use "../font";
+
+.annomalie__card {
+  padding: 10px 40px;
+  width: 100vw;
+  font-family: font.$font;
+  margin-bottom: 20px;
+
+  &__title {
+    font-weight: inherit;
+  }
+
+  &__description {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+}
